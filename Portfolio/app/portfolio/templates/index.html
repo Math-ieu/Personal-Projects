@@ -20,7 +20,8 @@
 		<!--────────────────Header───────────────-->
 	<header>
 		<a class="logo" href="#home">
-              <img src="https://newsletter-images--timmy-i-chen.repl.co/logo-light.png" alt="repl logo" />
+			{% load static %}
+              <img src="{% static 'img/logo.png'%}" alt="logo" />
 		</a>
 		<nav>	
 		 <ul class="nav-bar"><div class="bg"></div>
@@ -53,7 +54,7 @@
 		 <section class="intro">
 			{% load static %}
 			<div class="photo">
-				<img src="{% static 'img/mat.png'%}" alt="">
+				<img src="{% static 'img/mathieu.png'%}" alt="" style="width: 250px; ">
 			</div>
 		  <h3>Mathieu AKAKPO-DJAKPATA<hr></h3>
 		  <h4>FULL-STACK MOBILE/WEB DEVELOPER</h4>
@@ -62,7 +63,6 @@
           <p>I was bronze medalist at the 2019 Pan-African Mathematics Olympiad in Cape-Town, South-Africa </p>
 			<p>Mathematics and computer science are my passions. I already master many programming languages </p> 
 			<p>such as  Python, Java, Javascript, PHP, HTML, CSS, C, C++, SQL. I'm also web and mobile applications</p>
-			 
 			<p>developer. I master web development with Django, Laravel, Ionic, Flutter frameworks </p>
 		  </p>
 		</div>
